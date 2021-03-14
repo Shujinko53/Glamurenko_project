@@ -1,5 +1,5 @@
 .table {
-    margin-top: 30px;
+    margin: 30px 20% 0;
     
     font-weight: 700;
     color: #000;
@@ -64,7 +64,7 @@
         &:first-child {
             width: 50%;
             padding-left: 25px;
-            text-align-last: left;
+            text-align: left;
         }
     }
 
@@ -83,9 +83,8 @@
         border: 1px solid #fdc300;
 
         &:first-child {
-            width: 50%;
             padding-left: 25px;
-            text-align-last: left;
+            text-align: left;
         }
     }
 
@@ -93,5 +92,66 @@
         display: block;
         font-size: 10px;
         line-height: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .table {
+        margin: 20px 20px 0;
+        th {
+            font-size: 14px;
+    
+            &:first-child {
+                width: 50%;
+                padding-left: 5px;
+            }
+        }
+    
+        tr:nth-child(3) {
+            vertical-align: sub;
+        }
+    
+        td {
+            width: 16.66%;
+            font-size: 12px;
+    
+            &:first-child {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .table {
+        margin: 20px 10px 0;
+
+        th {
+            font-size: 12px;
+    
+            &:first-child {
+                width: 50%;
+                padding-left: 5px;
+            }
+        }
+    
+        tr:nth-child(3) {
+            vertical-align: sub;
+        }
+    
+        td {
+            width: 16.66%;
+            font-size: 10px;
+    
+            &:first-child {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .table {
+        margin: 20px 5px 0;
     }
 }

@@ -1,4 +1,6 @@
 .header {
+    z-index: 10;
+    
     &__menu {
         display: flex;
         justify-content: space-between;
@@ -16,9 +18,10 @@
             text-transform: uppercase;
             color: #fff;
 
+            transition: 0.3s all;
+
             &:hover {
-                text-decoration: none;
-                color: #fff;
+                color: #80693f;
             }
         }
     }
@@ -88,4 +91,44 @@
         --bs-gutter-x: 0;
     }
 
+}
+
+@media (max-width: 1200px) {
+    .header {
+        &__menu {
+            &-link {
+                font-size: 14px;
+                line-height: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        &__menu {
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            &-link {
+                font-size: 12px;
+                line-height: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+
+        &__social {
+            width: 100px;
+            margin-top: 7px;
+        }
+
+        &__contacts {
+            width: 200px;
+            margin-left: -30px;
+        }
+    }
 }

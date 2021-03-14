@@ -35,3 +35,30 @@
         color: #323232;
     }
 }
+
+@media (max-width: 767px) {
+    .process {
+        &__descr {
+            padding-right: 25px;
+    
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .process {
+        &__img {
+            margin-right: 10px;
+            width: 190px;
+        }
+
+        &__descr {
+            padding-right: 10px;
+    
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}
