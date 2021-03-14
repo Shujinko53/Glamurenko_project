@@ -4,6 +4,8 @@
 @import 'blocks/info';
 @import 'blocks/table';
 @import 'blocks/services';
+@import 'blocks/process';
+@import 'blocks/footer';
 
 * {
     box-sizing: border-box;
@@ -29,3 +31,7 @@
     color: #303030;
 }
 
+.inner__wrapper {
+    width: 640px;
+    margin: 0 auto;
+}

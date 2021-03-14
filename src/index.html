@@ -13,7 +13,7 @@
 <body class="main">
 	<div class="container">
 
-		<section class="promo">
+		<section class="promo" id="top">
 			<header class="header">
 				<nav>
 					<div class="row">
@@ -41,16 +41,10 @@
 							</li>
 						</ul>
 		
-						<div class="header__social col-md-2 offset-md-2">
-							<div class="header__social-item">
-								<img src="#" alt="instagram">
-							</div>
-							<div class="header__social-item">
-								<img src="#" alt="facebook">
-							</div>
-							<div class="header__social-item">
-								<img src="#" alt="vkontakte">
-							</div>
+						<div class="header__social col-md-1 offset-md-3">
+							<a href="#" class="header__social-item header__social-item_inst"></a>
+							<a href="#" class="header__social-item header__social-item_fb"></a>
+							<a href="#" class="header__social-item header__social-item_vk"></a>
 						</div>
 						
 						<div class="header__contacts col-md-2">
@@ -85,7 +79,7 @@
 		</section>
 
 		<section class="info">
-			<div class="info__wrapper">
+			<div class="inner__wrapper">
 				<h2 class="title">Как всё происходит</h2>
 				<div class="info__descr">После оплаты мы подключаем вас в канал Telegram с нашим стилистом.<br><br>подключение происходит в рабочее время: ПН-ПТ с 10 да 19 МСК<br><br>Сразу же вы можете писать свои вопросы.<br><br>Ответы будут в пределах часа в рабочее время: ПН-ПТ с 10 да 19 МСК<br><br>Если вы не получаете ответ за 1 час, мы продлеваем время действия услуги на 24 часа.<br><br>А если нужна помощь в выходной день?<br><br> <div>Напишите об этом как можно раньше, но не менее, чем за 24 часа. Получите подтверждение стилиста. Если вы отправляетесь, к примеру, на шопинг в выходной день и вам нужно, чтобы стилист был с вами на связи, такой вариант возможен по предварительной договоренности со стилистом.</div>
 				</div>
@@ -134,9 +128,9 @@
 					</tr>
 					<tr>
 						<th>Цена</th>
-						<th>7 990 &#8381</th>
-						<th>9 990 &#8381</th>
-						<th>24 990 &#8381</th>
+						<th>7 990 P</th>
+						<th>9 990 P</th>
+						<th>24 990 P</th>
 					</tr>
 					<tr>
 						<td></td>
@@ -171,21 +165,107 @@
 				<div class="services-item">
 					<div class="services-item__subtitle">Пакет</div>
 					<div class="services-item__title">«Попробовать»</div>
-					<div class="services-item__time">Срок:<span>В пределах 24 часов</span></div>
+					<div class="services-item__time">Срок:<span>в пределах 24 часов</span></div>
 					<div class="services-item__descr">Вопросов/комплектов на оценку:<span>5 ваших луков или 5 вопросов</span></div>
-					<div class="services-item__prices">
-						<div class="services-item__old-price">890P
-							<div class="line"></div>
+					<div class="services-item__wrapper">
+						<div class="services-item__prices">
+							<div class="services-item__old-price">890P
+								<div class="line"></div>
+							</div>
+							<div class="services-item__price">499P</div>
 						</div>
-						<div class="services-item__price">499P</div>
+						<button class="services-item__btn">Заказать</button>
 					</div>
-					<button class="services-item__btn">Заказать</button>
+				</div>
+				<div class="services-item">
+					<div class="services-item__subtitle">Пакет</div>
+					<div class="services-item__title">«1 день»</div>
+					<div class="services-item__time">Срок:<span>в пределах 24 часов</span></div>
+					<div class="services-item__descr">Вопросов/комплектов на оценку:<span>до 100</span></div>
+					<div class="services-item__wrapper">
+						<div class="services-item__prices">
+							<div class="services-item__old-price">3990P
+								<div class="line"></div>
+							</div>
+							<div class="services-item__price">2990P</div>
+						</div>
+						<button class="services-item__btn">Заказать</button>
+					</div>
+				</div>
+				<div class="services-item">
+					<div class="services-item__subtitle">Пакет</div>
+					<div class="services-item__title">«1 месяц»</div>
+					<div class="services-item__time">Срок:<span>в течение месяца</span></div>
+					<div class="services-item__descr">Вопросов/комплектов на оценку:<span>неограниченно</span></div>
+					<div class="services-item__wrapper">
+						<div class="services-item__prices">
+							<div class="services-item__old-price">11990P
+								<div class="line"></div>
+							</div>
+							<div class="services-item__price">9900P</div>
+						</div>
+						<button class="services-item__btn">Заказать</button>
+					</div>
 				</div>
 			</div>
 		</section>
+
+		<section class="process">
+			<div class="inner__wrapper">
+				<h2 class="title">Как всё происходит</h2>
+				<div class="process__content">
+					<div class="process__item">
+						<a href="img/chat_1.jpg" data-fancybox="gallery">
+							<img src="img/chat_1.jpg" alt="photo" class="process__img">
+						</a>
+						<div class="process__descr">Клиентка просит стилиста помочь выбрать одну из курток милитари</div>
+					</div>
+					<div class="process__item">
+						<a href="img/chat_2.jpg" data-fancybox="gallery">
+							<img src="img/chat_2.jpg" alt="photo" class="process__img">
+						</a>
+						<div class="process__descr">Стилист запрашивает дополнительные фотографии для того, чтобы выбор был 100% удачным</div>
+					</div>
+					<div class="process__item">
+						<a href="img/chat_3.jpg" data-fancybox="gallery">
+							<img src="img/chat_3.jpg" alt="photo" class="process__img">
+						</a>
+						<div class="process__descr">Стилист анализирует вещи с учетом уже имеющихся вещей клиентки и помогает сделать правильный выбор</div>
+					</div>
+					<div class="process__item">
+						<a href="img/chat_4.jpg" data-fancybox="gallery">
+							<img src="img/chat_4.jpg" alt="photo" class="process__img">
+						</a>
+						<div class="process__descr">Благодарная клиентка делится впечатлениями от полученной услуги и радостью удачных покупок</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<a href="#top" class="footer__up">Наверх
+				<div>
+					<img src="icons/up-chevron.svg" alt="up" class="footer__up_img">
+				</div>
+			</a>
+			<div class="footer__list">
+				<div class="footer__item">
+					<a href="#" class="footer__link">Вакансии</a>
+				</div>
+				<div class="footer__item">
+					<a href="#" class="footer__link">Карта сайта</a>
+				</div>
+				<div class="footer__item">
+					<a href="#" class="footer__link">Политика приватности</a>
+				</div>
+				<div class="footer__item">Перепечатка разрешена только с активной ссылкой на нас</div>
+				<div class="footer__item">@ Glamurenko.ru, 2005-2019 Тел.: 8(800)707-05-13; +7(499)350-23-35</div>
+				<div class="footer__item">Email: support@glamurenko.ru</div>
+			</div>
+		</footer>
 	</div>
 
-
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/script.js"></script>
 </body>

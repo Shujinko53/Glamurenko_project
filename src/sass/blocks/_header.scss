@@ -27,6 +27,39 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        &-item {
+            width: 27px;
+            height: 22px;
+
+            cursor: pointer;
+
+            transition: 0.2s all;
+
+            &_inst {
+                background: url('../../icons/social/instagram.png') -1px -2px no-repeat;
+
+                &:hover {
+                    background: url('../../icons/social/instagram.png') -1px -27px no-repeat;
+                }
+            }
+
+            &_fb {
+                background: url('../../icons/social/facebook.png') -2px -2px no-repeat;
+
+                &:hover {
+                    background: url('../../icons/social/facebook.png') -2px -27px no-repeat;
+                }
+            }
+
+            &_vk {
+                background: url('../../icons/social/vkontakte.png') 1px -2px no-repeat;
+
+                &:hover {
+                    background: url('../../icons/social/vkontakte.png') 1px -27px no-repeat;
+                }
+            }
+        }
     }
 
     &__contacts {
@@ -36,6 +69,10 @@
 
         &-item {
             display: block;
+
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
             text-decoration: none;
             color: #fff;
 
