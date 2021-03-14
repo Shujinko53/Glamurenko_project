@@ -1,0 +1,97 @@
+.table {
+    margin-top: 30px;
+    
+    font-weight: 700;
+    color: #000;
+
+    border: 1px solid #fdc300;
+
+    &__money {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin: 0 auto;
+        padding: 10px 0;
+
+        &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20px;
+            height: 24px;
+
+            border: 1px solid #000;
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 20px;
+        height: 13px;
+        margin: 0 auto;
+        
+        &-currency {
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+    &__button {
+        width: 90px;
+        height: 30px;
+        margin-top: 20px;
+
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #fff;
+
+        background-color: #000;
+        border: none;
+        border-radius: 3px;
+    }
+
+    th {
+        font-weight: 700;
+        font-size: 17px;
+        text-align: center;
+        text-transform: uppercase;
+
+        background-color: #ffd101;
+        border: 1px solid #fdc300;
+
+        &:first-child {
+            width: 50%;
+            padding-left: 25px;
+            text-align-last: left;
+        }
+    }
+
+    tr:nth-child(3) {
+        vertical-align: sub;
+    }
+
+    td {
+        width: 16.66%;
+        
+        text-align: center;
+        font-size: 14px;
+        
+        background-color: #fff000;
+
+        border: 1px solid #fdc300;
+
+        &:first-child {
+            width: 50%;
+            padding-left: 25px;
+            text-align-last: left;
+        }
+    }
+
+    span {
+        display: block;
+        font-size: 10px;
+        line-height: 14px;
+    }
+}

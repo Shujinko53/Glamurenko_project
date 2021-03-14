@@ -1,0 +1,53 @@
+.help {
+    position: relative;
+
+    padding: 60px 0 50px 0;
+    background-color: #fff;
+
+    overflow: hidden;
+
+    &__descr {
+        margin: 40px 0 0;
+        padding: 0 10%;
+
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 26px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #2e2e2e;
+    }
+
+    &__wrapper {
+        margin-top: 8px;
+    }
+
+    &__img {
+        width: 100%;
+
+        &-descr {
+            font-size: 14px;
+            text-align: center;
+            color: #a8a8a8;
+        }
+    }
+
+    &__new {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 300px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        text-align: center;
+        color: #fff;
+
+        background-color: #ff0c3a;
+
+        transform: rotateZ(-45deg) translate(-90px, -15px);
+    }
+
+}

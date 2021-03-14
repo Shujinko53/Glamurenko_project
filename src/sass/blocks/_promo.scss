@@ -1,0 +1,43 @@
+.promo {
+    min-height: 660px;
+    padding: 40px 0 0 0;
+
+    background: url('../img/bg_main.png') center (center/cover) no-repeat;
+
+    &__wrapper {
+        width: 270px;
+        margin-top: 130px;
+    }
+
+    &__logo {
+        width: 220px;
+        height: 150px;
+    }
+
+    &__descr {
+        margin-top: 40px;
+
+        font-size: 16px;
+        line-height: 16px;
+        text-transform: uppercase;
+        letter-spacing: -0.5px;
+        color: #fff;
+    }
+
+    &__link {
+        display: block;
+        margin-top: 5px;
+
+        font-size: 14px;
+        line-height: 14px;
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: #a38c60;
+
+        transition: 0.3s all;
+
+        &:hover {
+            color: #80693f;
+        }
+    }
+}
