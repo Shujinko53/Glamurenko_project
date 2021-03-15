@@ -8,6 +8,8 @@
 @import 'blocks/footer';
 
 * {
+    font-family: 'Roboto', serif;
+
     box-sizing: border-box;
 }
 
@@ -21,6 +23,7 @@
     font-weight: 300;
     font-size: 32px;
     line-height: 32px;
+    font-family: 'Oranienbaum', serif;
     text-align: center;
     text-transform: uppercase;
     color: #303030;

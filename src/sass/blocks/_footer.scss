@@ -24,12 +24,15 @@
         border: 1px solid #fff;
 
         transform: translateX(-50%);
+        transition: 0.5s all;
 
         cursor: pointer;
 
         &:hover {
             text-decoration: none;
             color: #fff;
+
+            box-shadow: 0 0 10px 0 #fff;
         }
 
         div {

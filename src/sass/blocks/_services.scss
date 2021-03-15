@@ -5,9 +5,10 @@
     &__title {
         margin: 0;
 
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 24px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 28px;
+        font-family: 'Oranienbaum', serif;
         text-align: center;
         text-transform: uppercase;
         color: #2e2e2e;
@@ -15,7 +16,7 @@
 
     &__content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         margin-top: 35px;
         padding: 0 40px;
@@ -67,8 +68,8 @@
             span {
                 display: block;
 
-                font-weight: 500;
-                font-size: 15px;
+                font-weight: 700;
+                font-size: 16px;
             }  
         }
 
