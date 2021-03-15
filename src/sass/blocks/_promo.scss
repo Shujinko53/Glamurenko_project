@@ -41,3 +41,18 @@
         }
     }
 }
+
+@media (max-width: 1199px) {
+    .promo {
+        background: url('../img/bg_main.png') 50% 10% no-repeat;
+
+        &__wrapper {
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+    }
+}

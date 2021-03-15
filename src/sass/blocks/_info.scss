@@ -23,19 +23,24 @@
     &__img {
         width: 100%;
     }
-
 }
+
+@media (max-width: 1199px) {
+    .info {
+        padding-bottom: 70px;
+    }
+}
+
+
 
 @media (max-width: 991px) {
     .info {
-        padding-bottom: 50px;
+        padding-bottom: 70px;
 
         &__img {
             margin-top: 20px;
         }
-    }
-
-    
+    } 
 }
 
 @media (max-width: 767px) {

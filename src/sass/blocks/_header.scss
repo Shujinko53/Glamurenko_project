@@ -1,4 +1,5 @@
 .header {
+    position: fixed;
     z-index: 10;
     
     &__menu {
@@ -9,6 +10,10 @@
         padding: 0;
         
         list-style: none;
+
+        &-item {
+            margin: 0 1px;
+        }
 
         &-link {
             display: block;
@@ -109,8 +114,12 @@
 @media (max-width: 991px) {
     .header {
         &__menu {
-            justify-content: space-around;
+            justify-content: space-between;
             flex-wrap: wrap;
+
+            &-item {
+                margin-bottom: 5px;
+            }
 
             &-link {
                 font-size: 12px;
@@ -122,7 +131,6 @@
 
 @media (max-width: 575px) {
     .header {
-
         &__social {
             width: 100px;
             margin-top: 7px;
