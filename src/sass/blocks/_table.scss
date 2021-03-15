@@ -1,5 +1,6 @@
 .table {
-    margin: 30px 20% 0;
+    margin: 30px auto 0;
+    width: 600px;
     
     font-weight: 700;
     color: #000;
@@ -95,36 +96,20 @@
     }
 }
 
-@media (max-width: 1199px) {
-    .table {
-        margin: 30px 16% 0;
-    }
-}
-
-@media (max-width: 991px) {
-    .table {
-        margin: 30px 10% 0;
-    }
-}
-
 @media (max-width: 767px) {
     .table {
-        margin: 20px 20px 0;
+        margin: 20px auto 0;
+        width: 450px;
+
         th {
             font-size: 14px;
     
             &:first-child {
-                width: 50%;
                 padding-left: 5px;
             }
         }
     
-        tr:nth-child(3) {
-            vertical-align: sub;
-        }
-    
         td {
-            width: 16.66%;
             font-size: 12px;
     
             &:first-child {
@@ -136,7 +121,7 @@
 
 @media (max-width: 575px) {
     .table {
-        margin: 20px 10px 0;
+        width: 350px;
 
         th {
             font-size: 12px;
@@ -147,16 +132,13 @@
             }
         }
     
-        tr:nth-child(3) {
-            vertical-align: sub;
-        }
-    
         td {
             width: 16.66%;
+
             font-size: 10px;
-    
+            
             &:first-child {
-                padding-left: 10px;
+                padding-left: 5px;
             }
         }
     }
@@ -164,6 +146,21 @@
 
 @media (max-width: 425px) {
     .table {
-        margin: 20px 5px 0;
+        th {
+            &:first-child {
+                width: 50%;
+                padding-left: 5px;
+            }
+        }
+
+        td {
+            width: 20%;
+            padding: 5px 0;
+
+            &:first-child {
+                width: 40%;
+                padding-left: 5px;
+            }
+        }
     }
 }
